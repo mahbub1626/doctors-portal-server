@@ -137,7 +137,8 @@ async function run() {
          * app.get('/bookings/:id')
          * app.post('/bookings')
          * app.patch('/bookings/:id')
-         * app.delete('/bookings/:id')         
+         * app.delete('/bookings/:id')   
+         *       
          */
 
         app.get('/bookings', verifyJWT, async (req, res) => {
